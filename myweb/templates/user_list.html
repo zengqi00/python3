@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user_list</title>
+</head>
+<body>
+<a href="http://127.0.0.1:8888/register/">注册</a>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>编号</th>
+        <th>账号</th>
+        <th>密码</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for user in user_list %}
+        <tr>
+            <td>{{user.user_id}}</td>
+            <td>{{user.username}}</td>
+            <td>{{user.password}}</td>
+            <td> <a href="/delete/?user_id={{user.user_id}}">删除</a>
+                <a href="/edit_user/?user_id={{user.user_id}}">编辑</a>
+            </td>
+
+        </tr>
+    {% endfor %}
+    </tbody>
+
+</table>
+</body>
+</html>
