@@ -1,6 +1,9 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render,redirect,reverse
 from django.http import HttpResponse
 from myapp.models import User,BlogsPost
+from django.shortcuts import render_to_response
+import json
+
 
 from django import forms
 # Create your views here.
@@ -19,7 +22,7 @@ def login(request):
             try:
                 user = User.objects.get(username=username)
                 if user.password == password:
-                    return redirect('/user_list/')
+                    return redirect(reverse('user_list'))
                 else:
                     message = "密码或账号不正确"
                     return render(request,'login.html',{'error_msg':message})
@@ -61,7 +64,7 @@ def delete(request):
         del_obj=User.objects.get(user_id=del_id)
         del_obj.delete()
         #返回到展示所有用户页面
-        return redirect("/user_list/")
+        return redirect(reverse('user_list'))
     else:
         return HttpResponse("要删除的数据不存在")
 #编辑用户
@@ -73,7 +76,7 @@ def edit_user(request):
         edit_username = User.objects.get(user_id = edit_id)
         edit_username.username = new_user
         edit_username.save()
-        return redirect('/user_list/')
+        return redirect(reverse('user_list'))
 
     ed_id=request.GET.get('user_id')
     if ed_id:
@@ -83,9 +86,19 @@ def edit_user(request):
 
 def blog_list(request):
     blog_list = BlogsPost.objects.all()
-    return render(request,'index.html',{'blog_list' :blog_list})
+    return render(request,'blog_list.html',{'blog_list' :blog_list})
 
-
+def login_in(request):
+    if request.method == 'POST':
+        result = {}
+        username = request.POST.get('username')
+        passwd = request.POST.get('passwd')
+        result['user'] = username
+        result['passwd'] = passwd
+        result = json.dumps(result)
+        return HttpResponse(result,content_type='')
+    else:
+        return render_to_response('login_in.html')
 
 
 

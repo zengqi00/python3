@@ -5,7 +5,8 @@
     <title>user_list</title>
 </head>
 <body>
-<a href="http://127.0.0.1:8888/register/">注册</a>
+
+
 
 <table border="1">
     <thead>
@@ -19,17 +20,19 @@
     <tbody>
     {% for user in user_list %}
         <tr>
-            <td>{{user.user_id}}</td>
+            <td style="color:red">{{user.user_id}}</td>
             <td>{{user.username}}</td>
             <td>{{user.password}}</td>
-            <td> <a href="/delete/?user_id={{user.user_id}}">删除</a>
+            <td>
+                <a href="/delete/?user_id={{user.user_id}}">删除</a>
                 <a href="/edit_user/?user_id={{user.user_id}}">编辑</a>
             </td>
-
         </tr>
     {% endfor %}
     </tbody>
-
 </table>
+
+<a href="{% url 'register' %}">新增</a>
+<a href="{% url 'blog_list' %}">博客</a>
 </body>
 </html>

@@ -19,3 +19,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+启动：python3 manage.py runserver 9999
+后台账号：zengqi  123456
+
+'''
