@@ -141,17 +141,18 @@
         <counts>
           <entry key="Python Console" value="6" />
           <entry key="dummy" value="3" />
-          <entry key="help" value="238" />
+          <entry key="help" value="262" />
           <entry key="html" value="298" />
           <entry key="py" value="1113" />
           <entry key="sql" value="6" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="DBN-SQL" value="6" />
           <entry key="HTML" value="298" />
-          <entry key="PLAIN_TEXT" value="241" />
+          <entry key="PLAIN_TEXT" value="284" />
           <entry key="Python" value="1119" />
         </counts>
       </usages-collector>
@@ -243,8 +244,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myweb/help">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -617,7 +618,28 @@
       <option name="project" value="LOCAL" />
       <updated>1577016837017</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test上传到github">
+      <created>1577017066050</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577017066050</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test上传到github">
+      <created>1577017227063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577017227063</updated>
+    </task>
+    <task id="LOCAL-00010" summary="11111">
+      <created>1577017268408</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577017268408</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -653,9 +675,9 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49964765" weight="0.32289156" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" weight="0.21566264" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.21566264" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49964765" visible="true" weight="0.40120482" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49964765" weight="0.25421688" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49964765" weight="0.3253012" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -693,7 +715,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="test上传到github" />
+    <MESSAGE value="11111" />
+    <option name="LAST_COMMIT_MESSAGE" value="11111" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1049,8 +1073,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myweb/help">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
