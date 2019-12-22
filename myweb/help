@@ -27,5 +27,12 @@ cat ~/.ssh/id_rsa.pub
 验证是否成功
 ssh -T git@github.com
 
-代码格式化：command+alt+l
-反撤销：command+shift+z
+1.Pycharm中快捷键大全，遇到一个更新一个
+撤销与反撤销：Ctrl + z，Ctrl + Shift + z
+缩进、不缩进：Tab、Shift + tab
+运行：Shift + F10
+批量注释：Ctrl + /
+快速查看文档：Ctrl + q
+当光标在代码中间，如何回车到下一行：Shift + 回车
+当鼠标在代码下一行非开头位置，如何跳转到上一行末尾：Ctrl + backspace（退格键）
+当一行代码太长时，我们如何切换到下一行，但是格式不变：Ctrl + 回车
