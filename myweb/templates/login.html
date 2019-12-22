@@ -22,28 +22,29 @@
 <!--</body>-->
 <body>
 
-    <div class="container">
+<div class="container">
 
-      <form class="form-signin" method="post" >
-        <h2 class="form-signin-heading">欢迎登录</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="text" name="username" id="inputEmail"  class="form-control" placeholder="Username" required="" autofocus="">
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-            <a href="{% url 'register' %}">注册</a>
-            {% if error_msg %}
-            <span>{{error_msg}}</span>
-            {% endif %}
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  <form class="form-signin" method="post">
+    <h2 class="form-signin-heading">欢迎登录</h2>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="text" name="username" id="inputEmail" class="form-control" placeholder="Username" required=""
+           autofocus="">
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+        <a href="{% url 'register' %}">注册</a>
+        {% if error_msg %}
+        <span>{{error_msg}}</span>
+        {% endif %}
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 
-      </form>
+  </form>
 
-    </div> <!-- /container -->
+</div> <!-- /container -->
 
 
 

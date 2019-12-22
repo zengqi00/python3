@@ -27,3 +27,5 @@ cat ~/.ssh/id_rsa.pub
 验证是否成功
 ssh -T git@github.com
 
+代码格式化：command+alt+l
+反撤销：command+shift+z
