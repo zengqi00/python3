@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512cf3d9-ef09-4663-bf50-dfc4bfa1be06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myweb/help" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/help" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +115,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="help" value="4" />
+          <entry key="help" value="5" />
           <entry key="html" value="23" />
           <entry key="jpg" value="7" />
           <entry key="js" value="1" />
@@ -130,7 +130,7 @@
           <entry key="HTML" value="23" />
           <entry key="Image" value="7" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="29" />
         </counts>
       </usages-collector>
@@ -138,7 +138,7 @@
         <counts>
           <entry key="Python Console" value="6" />
           <entry key="dummy" value="3" />
-          <entry key="help" value="182" />
+          <entry key="help" value="187" />
           <entry key="html" value="298" />
           <entry key="py" value="1113" />
           <entry key="sql" value="6" />
@@ -148,7 +148,7 @@
         <counts>
           <entry key="DBN-SQL" value="6" />
           <entry key="HTML" value="298" />
-          <entry key="PLAIN_TEXT" value="185" />
+          <entry key="PLAIN_TEXT" value="190" />
           <entry key="Python" value="1119" />
         </counts>
       </usages-collector>
@@ -195,7 +195,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myweb/demo/image_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -245,6 +245,15 @@
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myweb/help">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -315,7 +324,6 @@
         <option value="$PROJECT_DIR$/myweb/myapp/api_requests.py" />
         <option value="$PROJECT_DIR$/myweb/api_requests/HttpTestRunner.py" />
         <option value="$PROJECT_DIR$/myweb/api_requests/api_requests.py" />
-        <option value="$PROJECT_DIR$/myweb/help" />
         <option value="$PROJECT_DIR$/myweb/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/myweb/static/css/dashboard.css" />
         <option value="$PROJECT_DIR$/myweb/myweb/urls.py" />
@@ -326,6 +334,7 @@
         <option value="$PROJECT_DIR$/myweb/myapp/views.py" />
         <option value="$PROJECT_DIR$/myweb/templates/login.html" />
         <option value="$PROJECT_DIR$/myweb/templates/test.html" />
+        <option value="$PROJECT_DIR$/myweb/help" />
       </list>
     </option>
   </component>
@@ -354,24 +363,6 @@
               <item name="python3" type="462c0819:PsiDirectoryNode" />
               <item name="myweb" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3" type="462c0819:PsiDirectoryNode" />
-              <item name="myweb" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3" type="462c0819:PsiDirectoryNode" />
-              <item name="myweb" type="462c0819:PsiDirectoryNode" />
-              <item name="myweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3" type="462c0819:PsiDirectoryNode" />
-              <item name="myweb" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -382,7 +373,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/zengqi/Desktop/python3/myweb/manage.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -492,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577014932008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试">
+      <created>1577015848642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577015848642</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -511,24 +509,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4955414" visible="true" weight="0.11627907" />
-      <window_info id="Structure" order="1" sideWeight="0.50383633" side_tool="true" weight="0.32851985" />
-      <window_info id="Project Explorer" order="2" weight="0.32851985" />
-      <window_info id="Favorites" order="3" sideWeight="0.5044586" side_tool="true" weight="0.16946565" />
-      <window_info id="DB Browser" order="4" weight="0.32851985" />
-      <window_info id="Job Explorer" order="5" sideWeight="0.4961637" weight="0.32851985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.11627907" />
+      <window_info id="Structure" order="1" sideWeight="0.5045045" side_tool="true" weight="0.11627907" />
+      <window_info id="Project Explorer" order="2" weight="0.32840028" />
+      <window_info id="Favorites" order="3" sideWeight="0.5045045" side_tool="true" weight="0.11627907" />
+      <window_info id="DB Browser" order="4" weight="0.32840028" />
+      <window_info id="Job Explorer" order="5" sideWeight="0.4961637" weight="0.32840028" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32612312" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.3313253" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4982382" visible="true" weight="0.3313253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36674815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49964765" weight="0.32289156" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.21566264" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" weight="0.21566264" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5017618" side_tool="true" visible="true" weight="0.3313253" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49964765" weight="0.3253012" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -762,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myweb/help">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myweb/static/plugins/bootstrap-3.3.7-dist/js/npm.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -895,6 +887,13 @@
           <folding>
             <element signature="e#12#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myweb/help">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
