@@ -15,7 +15,7 @@ python manage.py makemigrations
 
 python manage.py migrate
 
-
+32额2
 342432
 4324432432432
 432432432
