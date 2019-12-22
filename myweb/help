@@ -1,0 +1,16 @@
+创建项目
+django-admin startproject 项目名称
+
+创建app
+django-admin startapp app名称
+
+注册app
+setting里添加app
+
+运行项目
+python manage.py runserver
+
+数据库
+python manage.py makemigrations
+
+python manage.py migrate

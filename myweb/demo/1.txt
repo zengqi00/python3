@@ -1,0 +1,14 @@
+#coding= utf-8
+
+class Teacher(object):
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+    country = "中国"
+    def talk(self):
+        print("我是老师，正在讲课")
+        return "wo"
+teacher = Teacher("dsa",321)
+t = teacher.talk()
+print(t)
