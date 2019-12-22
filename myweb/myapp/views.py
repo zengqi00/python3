@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from myapp.models import User,BlogsPost
 from django.shortcuts import render_to_response
 import json
+from django.http.response import JsonResponse
 
 
 from django import forms
@@ -45,7 +46,7 @@ def register(request):
                 message = '账号长度应为6-10位'
                 return render(request, 'register.html', {'error_msg': message})
             User.objects.create(username=new_name,password=new_password)
-            return render(request,'success.html')
+            return render(request, 'login.html', {'error_msg': message})
         else:message = '账号或密码不能空'
     return render(request,'register.html',{'error_msg':message})
 
@@ -56,33 +57,35 @@ def user_list(request):
     ret = User.objects.all()
     return render(request,'user_list.html',{"user_list":ret})
 #删除
-def delete(request):
+def delete(request,pk):
     #删除指定的数据
     #1.从get请求的参数里面拿到将要删除的id
-    del_id = request.GET.get('user_id')
-    if del_id:
-        del_obj=User.objects.get(user_id=del_id)
-        del_obj.delete()
-        #返回到展示所有用户页面
-        return redirect(reverse('user_list'))
-    else:
-        return HttpResponse("要删除的数据不存在")
+    # del_id = request.GET.get('user_id')
+    # if del_id:
+    #     del_obj=User.objects.get(user_id=del_id)
+    #     del_obj.delete()
+    #     #返回到展示所有用户页面
+    #     return redirect(reverse('user_list'))
+    # else:
+    #     return HttpResponse("要删除的数据不存在")
+    #
+    User.objects.filter(pk=pk).delete()
+    return redirect(reverse('user_list'))
+
 #编辑用户
 def edit_user(request):
+    #获取提交的数据
+    edit_id = request.GET.get('user_id')
+    #查找到要编辑的对象
+    user_obj = User.objects.get(user_id=edit_id)
     if request.method == 'POST':
-        #获取用户信息
+        #获取新提交的数据
         edit_id = request.POST.get('user_id')
         new_user = request.POST.get('username')
-        edit_username = User.objects.get(user_id = edit_id)
-        edit_username.username = new_user
-        edit_username.save()
-        return redirect(reverse('user_list'))
-
-    ed_id=request.GET.get('user_id')
-    if ed_id:
-        #获取当前编辑的用户
-        user_obj = User.objects.get(user_id = ed_id)
-        return render(request,'edit_user.html',{'user':user_obj})
+        user_obj.username = new_user
+        user_obj.save()
+        return redirect('/user_list/')
+    return render(request, 'edit_user.html', {'user': user_obj})
 
 def blog_list(request):
     blog_list = BlogsPost.objects.all()
@@ -95,8 +98,10 @@ def login_in(request):
         passwd = request.POST.get('passwd')
         result['user'] = username
         result['passwd'] = passwd
-        result = json.dumps(result)
-        return HttpResponse(result,content_type='')
+        #result = json.dumps(result)
+        #return HttpResponse(result,content_type='')
+        return JsonResponse(result)
+
     else:
         return render_to_response('login_in.html')
 

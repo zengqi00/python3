@@ -24,7 +24,7 @@
             <td>{{user.username}}</td>
             <td>{{user.password}}</td>
             <td>
-                <a href="/delete/?user_id={{user.user_id}}">删除</a>
+                <a href="{% url 'delete' user.user_id %}">删除</a>
                 <a href="/edit_user/?user_id={{user.user_id}}">编辑</a>
             </td>
         </tr>
