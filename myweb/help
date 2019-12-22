@@ -36,3 +36,8 @@ ssh -T git@github.com
 当光标在代码中间，如何回车到下一行：Shift + 回车
 当鼠标在代码下一行非开头位置，如何跳转到上一行末尾：Ctrl + backspace（退格键）
 当一行代码太长时，我们如何切换到下一行，但是格式不变：Ctrl + 回车
+
+github：
+email：zengqi@yeechoo.com
+用户名：zengqi00
+密码：Zzengqi123

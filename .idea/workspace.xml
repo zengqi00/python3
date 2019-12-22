@@ -4,8 +4,6 @@
     <list default="true" id="512cf3d9-ef09-4663-bf50-dfc4bfa1be06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myweb/help" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/help" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myweb/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myweb/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/templates/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +141,7 @@
         <counts>
           <entry key="Python Console" value="6" />
           <entry key="dummy" value="3" />
-          <entry key="help" value="388" />
+          <entry key="help" value="450" />
           <entry key="html" value="298" />
           <entry key="py" value="1113" />
           <entry key="sql" value="6" />
@@ -154,7 +152,7 @@
         <counts>
           <entry key="DBN-SQL" value="6" />
           <entry key="HTML" value="298" />
-          <entry key="PLAIN_TEXT" value="410" />
+          <entry key="PLAIN_TEXT" value="472" />
           <entry key="Python" value="1119" />
         </counts>
       </usages-collector>
@@ -213,8 +211,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myweb/help">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="593">
+              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -611,7 +609,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577017807331</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="11111">
+      <created>1577018289209</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577018289209</updated>
+    </task>
+    <task id="LOCAL-00013" summary="11111">
+      <created>1577018372739</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1577018372739</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1048,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myweb/help">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="593">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
