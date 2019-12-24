@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/myweb/static" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/myweb/templates" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/myweb/demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/myweb/demo/apiRequests" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (py3.7)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
