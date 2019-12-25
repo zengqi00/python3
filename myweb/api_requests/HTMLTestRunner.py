@@ -20,7 +20,7 @@ HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g.
     fp = file('my_report.html', 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(
                 stream=fp,
-                title='My unit test',
+                title='My unit test,
                 description='This demonstrates the report output by HTMLTestRunner.'
                 )
 

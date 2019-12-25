@@ -1,5 +1,6 @@
 
 import xlrd
+from xlutils.copy import copy
 # data = xlrd.open_workbook('case.xlsx')
 # tables = data.sheet_by_index(0)
 
@@ -26,6 +27,15 @@ class OperationExcel:
     #获取某一个单元格的内容
     def get_cell_value(self,row,rol):
         return self.data.cell_value(row,rol)
+
+    #写入数据
+    def write_value(self,row,rol,value):
+        read_data = xlrd.open_workbook(self.file_name)
+        write_data = copy(read_data)
+        sheet_data = write_data.get_sheet(0)
+        sheet_data.write(row,rol,value)
+        write_data.save(self.file_name)
+
 
 
 
