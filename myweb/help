@@ -26,6 +26,28 @@ ssh-keygen -t rsa -C zengqi@yeechoo.com
 cat ~/.ssh/id_rsa.pub
 验证是否成功
 ssh -T git@github.com
+# 1.版本回退
+# 1.1. 查看提交日志
+git log
+# 简化输出信息
+git log --pretty=oneline
+# 查看每一次的提交记录，即使是回退的也可以查看
+git reflog
+# -----------------------------------------------------------------------
+# 1.2. 回退版本
+# 回退到上一个版本
+git reset --hard HEAD^
+# 回退到指定的版本
+git reset --hard commit_id
+# 撤销到暂存区
+git reset --soft HEAD@{1}
+# 干掉这个修改
+git reset --hard HEAD@{1}  # 或 git reset HEAD~2
+
+作者：Crisimple
+链接：https://juejin.im/post/5d907a6c518825093a357eb7
+来源：掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 1.Pycharm中快捷键大全，遇到一个更新一个
 撤销与反撤销：Ctrl + z，Ctrl + Shift + z
