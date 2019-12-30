@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="512cf3d9-ef09-4663-bf50-dfc4bfa1be06" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/python3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="512cf3d9-ef09-4663-bf50-dfc4bfa1be06" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +121,7 @@
           <entry key="md" value="1" />
           <entry key="png" value="1" />
           <entry key="psql" value="5" />
-          <entry key="py" value="66" />
+          <entry key="py" value="67" />
           <entry key="txt" value="2" />
           <entry key="xml" value="1" />
         </counts>
@@ -139,7 +136,7 @@
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="66" />
+          <entry key="Python" value="67" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -174,8 +171,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangodemo/xiaoshuo/xiaoshuo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="431">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#632#664#0" expanded="true" />
               </folding>
@@ -186,8 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangodemo/xiaoshuo/novel/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1577508462006" expanded="true" signature="133:138" ph="..." />
@@ -199,8 +196,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/djangodemo/xiaoshuo/xiaoshuo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="810">
+              <caret line="54" column="9" selection-start-line="54" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -292,8 +289,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="756" />
-    <option name="y" value="110" />
+    <option name="x" value="751" />
+    <option name="y" value="65" />
     <option name="width" value="679" />
     <option name="height" value="790" />
   </component>
@@ -327,16 +324,13 @@
             <path>
               <item name="python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="python3" type="462c0819:PsiDirectoryNode" />
-              <item name="djangodemo" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoshuo" type="462c0819:PsiDirectoryNode" />
-              <item name="novel" type="462c0819:PsiDirectoryNode" />
+              <item name="myweb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python3" type="b2602c69:ProjectViewProjectNode" />
               <item name="python3" type="462c0819:PsiDirectoryNode" />
-              <item name="djangodemo" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoshuo" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoshuo" type="462c0819:PsiDirectoryNode" />
+              <item name="myweb" type="462c0819:PsiDirectoryNode" />
+              <item name="myweb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -352,11 +346,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/djangodemo/xiaoshuo/novel" />
       <recent name="$PROJECT_DIR$/myweb/api_requests" />
       <recent name="$PROJECT_DIR$/myweb/demo" />
       <recent name="$PROJECT_DIR$/myweb" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/djangodemo/xiaoshuo/novel" />
       <recent name="$PROJECT_DIR$/myweb/demo/apiRequests" />
       <recent name="$PROJECT_DIR$/myweb/static/css" />
       <recent name="$PROJECT_DIR$/myweb/static/plugins" />
@@ -766,7 +762,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577288045258</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="432432432432">
+      <created>1577508677911</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1577508677911</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -784,7 +787,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="756" y="110" width="679" height="790" extended-state="0" />
+    <frame x="751" y="65" width="679" height="790" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954955" visible="true" weight="0.27355623" />
@@ -802,7 +805,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49964765" weight="0.32289156" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49674267" visible="true" weight="0.31661892" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49674267" visible="true" weight="0.18194842" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50325733" side_tool="true" weight="0.31661892" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49964765" weight="0.26751593" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49964765" weight="0.32484075" />
@@ -1159,8 +1162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/djangodemo/xiaoshuo/xiaoshuo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="431">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
           </folding>
@@ -1169,8 +1172,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/djangodemo/xiaoshuo/novel/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1577508462006" expanded="true" signature="133:138" ph="..." />
@@ -1180,8 +1183,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/djangodemo/xiaoshuo/xiaoshuo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="810">
+          <caret line="54" column="9" selection-start-line="54" selection-end-line="54" selection-end-column="9" />
         </state>
       </provider>
     </entry>
