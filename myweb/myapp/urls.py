@@ -15,6 +15,7 @@ urlpatterns = [
     url(r'^edit_user/', views.edit_user,name='edit'),
     url(r'^blog_list/$', views.blog_list,name='blog_list'),
     url(r'^login_in/$',views.login_in),
+    url(r'^index/$',views.index),
 
 
 

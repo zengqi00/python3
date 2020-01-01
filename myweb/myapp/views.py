@@ -4,8 +4,35 @@ from myapp.models import User,BlogsPost
 from django.shortcuts import render_to_response
 import json
 from django.http.response import JsonResponse
+#from config.run_method import RunMethod
+import requests
+class RunMethod:
+
+    def post_main(self,url,data,header=None):
+        res = None
+        if header !=None:
+            res = requests.post(url=url,data=data,headers=header).json()
+        else:
+            res= requests.post(url=url,data=data).json()
+        return res
+
+    def get_main(self,url,data=None,header=None):
+        res = None
+        if header !=None:
+            res = requests.get(url=url,data=data,headers=header).json()
+        else:
+            res= requests.get(url=url,data=data).json()
+        return res
 
 
+
+    def run_main(self,method,url,data,header=None):
+        res = None
+        if method =='post':
+            res = self.post_main(url,data,header)
+        else:
+            res = self.get_main(url,data,header)
+        return json.dumps(res,ensure_ascii=False,sort_keys=True,indent=2)
 from django import forms
 # Create your views here.
 # class UserForm(forms.Form):
@@ -105,8 +132,48 @@ def login_in(request):
     else:
         return render_to_response('login_in.html')
 
+def index(request):
+    pt=RunMethod()
+    exr=request.POST.get('exr',None)
+    data=""
+    data1=""
+    url = request.POST.get('url',None)
+    header = request.POST.get('testdate',None)
+    re_data =request.POST.get('header',None)
+    mothod = request.POST.get('fun',None)
+    if request.method=='POST':
+        data=pt.run_main(mothod,url,data,header)
+        result=data.json()
+        data1=result['message']
+        if int(result['message']==int(exr)):
+            data=u'测试通过'
+        else:
+            data=u'测试失败'
+    return render(request,"index.html",{"data":data,"data1":data1})
 
 
+def add_args(a,b):
+    x=int(a)
+    y=int(b)
+    return x+y
+
+def post(request):
+    if request.method=='POST':
+        d={}
+        if request.POST:
+            a=request.POST.get('a',None)
+            b=request.POST.get('b',None)
+            if a and b:
+                res=add_args(a, b)
+                d['message']=res
+                d=json.dumps(d)
+                return HttpResponse(d)
+            else:
+                return HttpResponse(u'输入错误')
+        else:
+            return HttpResponse(u'输入为空')
+    else:
+        return HttpResponse(u'方法错误')
 
 
 
